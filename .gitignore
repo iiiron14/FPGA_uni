@@ -1,0 +1,49 @@
+# --- Output e file di compilazione ---
+db/
+incremental_db/
+output_files/
+greybox_tmp/
+hc_output/
+hcl_res/
+simulation/
+timing/
+
+# --- File di report e log ---
+*.rpt
+*.summary
+*.jdi
+*.pin
+*.done
+*.qws
+*.bak
+*.txt
+*.log
+*.msg
+*.smsg
+
+# --- File temporanei e di sistema ---
+*.done
+*.shm
+*.uvl
+*.bak
+*.svd
+
+# --- Qsys / Platform Designer (File generati) ---
+# Nota: carichiamo solo il file .qsys, non la cartella dei file generati
+*/synthesis/
+*/simulation/
+*/submodules/
+*.qip
+*.sip
+*.bsf
+*.spd
+*.xml
+
+# --- File specifici per schede (Programmazione) ---
+# Se vuoi caricare il file .sof per far testare il progetto ad altri, 
+# commenta la riga sotto mettendo un # davanti.
+# *.sof
+# *.pof
+*.jic
+*.ekp
+*.map
